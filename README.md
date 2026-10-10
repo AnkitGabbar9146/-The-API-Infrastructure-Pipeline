@@ -29,9 +29,34 @@ npm run preview
 - Lint and production build checks completed
 - Lighthouse scores: 100/100 in Performance, Accessibility, Best Practices, and SEO
 
-## Deployment
-Live Demo: Add your Netlify URL
-GitHub Repository: Add your GitHub URL
+## structure
+api-operations-dashboard/
+├── public/
+│   ├── favicon.svg
+│   ├── icons.svg
+│   └── robots.txt
+├── src/
+│   ├── assets/
+│   │   ├── hero.png
+│   │   ├── react.svg
+│   │   └── vite.svg
+│   ├── components/
+│   │   ├── Dashboard.jsx
+│   │   ├── ErrorState.jsx
+│   │   └── SkeletonLoader.jsx
+│   ├── services/
+│   │   └── api.js
+│   ├── workers/
+│   │   └── dataWorker.js
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
 
 ## Author
 Ankit Kumar[PDIT-FTE-11472]
